@@ -1,0 +1,13 @@
+{
+  "name": "commenter",
+  "keywords": [
+    "ember-addon",
+    "ember-engine"
+  ],
+  "dependencies": {
+    "ember-browserify": "*",
+    "humanize-string": "*",
+    "ember-cli-babel": "*",
+    "ember-cli-htmlbars": "*"
+  }
+}
