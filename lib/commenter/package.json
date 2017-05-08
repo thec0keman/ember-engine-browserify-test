@@ -5,9 +5,14 @@
     "ember-engine"
   ],
   "dependencies": {
-    "ember-browserify": "*",
-    "humanize-string": "*",
     "ember-cli-babel": "*",
+    "ember-data": "*",
+    "ember-cli-emblem": "*",
     "ember-cli-htmlbars": "*"
+  },
+  "ember-addon": {
+    "paths": [
+      "../shared"
+    ]
   }
 }

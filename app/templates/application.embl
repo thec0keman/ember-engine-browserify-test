@@ -1,0 +1,9 @@
+h3 This is the main app
+h5 Shared Model:
+= app-component model=sharedModel
+h5 App Specific Model:
+= app-component model=model
+
+hr
+
+= outlet
