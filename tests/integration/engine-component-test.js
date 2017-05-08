@@ -4,6 +4,15 @@ import FactoryGuy, { make, manualSetup } from 'ember-data-factory-guy';
 import resolver from '../helpers/commenter-resolver';
 import hbs from 'htmlbars-inline-precompile';
 
+/**
+  These tests are using factory-guy to push some models into the store and render
+  them in our test components.
+
+  This demonstrates that within an integration test it is easy to access
+  models that are only available to the engine by setting up a custom resolver
+  for the integration test.
+*/
+
 moduleForComponent('ticketsys/total-assignments', 'integration - engine-component', {
   integration: true,
   resolver,

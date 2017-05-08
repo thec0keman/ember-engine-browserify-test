@@ -3,6 +3,14 @@ import { test, moduleForComponent } from 'ember-qunit';
 import FactoryGuy, { make, manualSetup } from 'ember-data-factory-guy';
 import hbs from 'htmlbars-inline-precompile';
 
+/**
+  These tests are using factory-guy to push some models into the store and render
+  them in our test components.
+
+  This is the counterpart to the engine-component-test file and shows similar
+  behavior within our main app.
+*/
+
 moduleForComponent('ticketsys/total-assignments', 'integration - app-component', {
   integration: true,
 
