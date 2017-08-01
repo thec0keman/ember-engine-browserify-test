@@ -5,8 +5,7 @@
     "ember-engine"
   ],
   "dependencies": {
-    "ember-browserify": "*",
-    "humanize-string": "*",
+    "ember-data": "*",
     "ember-cli-babel": "*",
     "ember-cli-htmlbars": "*"
   }
